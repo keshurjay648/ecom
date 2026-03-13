@@ -1,177 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flikart|Home</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script></script>
-  <link rel="shoutcut icon" href="img/fav_icon.jpg">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flikart | Home</title>
 
-</head>
-<body class="">
-  <!-- navbar --> 
- <div class="container-fluid">
-  <div class="row">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-        <img src="img/logo.jpg" alt="logo" width="200px">
-    </a>
-    <form class="d-flex w-75" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="register.html">Register</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Category
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Fashion</a></li>
-            <li><a class="dropdown-item" href="#">Grocery</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Electronics</a></li>
-          </ul>
-        </li>
-        
-      </ul>
-      
-    </div>
-  </div>
-</nav>
-  </div>
- </div>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
- <!-- carsauel banner -->
-  <div class="container-fluid m-0">
-    <div class="row">
-      <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="img/banner.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/banner 2.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/banner 3.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    </div>
-  </div>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/fav_icon.jpg" />
 
-   <!-- cards -->
-    <div class="container-fluid mt-2">
-      <div class="row gap-2 justify-content-around"> 
-        <div class="card" style="width: 18rem;">
-  <img src="img/iphone.jpg" class="card-img-top" alt="..." width="100px" height="150px">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+  </head>
 
-<div class="card" style="width: 18rem;">
-  <img src="img/laptop.jpg" class="card-img-top" alt="..." width="100px" height="150px">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.jpg" width="200" />
+            </a>
 
-<div class="card" style="width: 18rem;">
-  <img src="img/headphone1.jpg" class="card-img-top" alt="..." width="100px" height="150px">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
+            <form class="d-flex w-75">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button class="btn btn-outline-success">Search</button>
+            </form>
 
-<div class="card" style="width: 18rem;">
-  <img src="img/mouse.jpg" class="card-img-top" alt="..." width="100px" height="150px">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Register</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Category
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Fashion</a></li>
+                    <li><a class="dropdown-item" href="#">Grocery</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Electronics</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
 
-    <!-- offers -->
-     <div class="container-fluid mt-2">
+    <!-- CAROUSEL -->
+    <div class="container-fluid m-0">
+      <div class="row">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="img/banner.png" class="d-block w-100" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/banner 2.png" class="d-block w-100" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/banner 3.png" class="d-block w-100" />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS -->
+
+    <div class="container-fluid mt-2">
+      <div class="row gap-2 justify-content-around">
+        <div class="card" style="width: 18rem">
+          <img src="img/iphone.jpg" class="card-img-top" height="150" />
+          <div class="card-body">
+            <h5 class="card-title">iPhone</h5>
+            <p class="card-text">Latest Apple smartphone</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="img/laptop.jpg" class="card-img-top" height="150" />
+          <div class="card-body">
+            <h5 class="card-title">Laptop</h5>
+            <p class="card-text">High performance laptop</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="img/headphone1.jpg" class="card-img-top" height="150" />
+          <div class="card-body">
+            <h5 class="card-title">Headphones</h5>
+            <p class="card-text">Noise cancelling headphones</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="img/mouse.jpg" class="card-img-top" height="150" />
+          <div class="card-body">
+            <h5 class="card-title">Mouse</h5>
+            <p class="card-text">Wireless gaming mouse</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OFFERS -->
+
+    <div class="container-fluid mt-2">
       <div class="row">
         <div class="col-6">
-          <img src="img/offer 1.png" alt="" width="650px">
+          <img src="img/offer 1.png" class="img-fluid" />
         </div>
 
-        <div class="col-6"> 
-          <img src="img/offer 2.png" alt="" width="650px">
-        </div>
-      </div>
-     </div>
-
-     <!-- footer -->
-      <div class="container-fluid m-2 text-white">
-        <div class="row">
-          <div class="col-3 text-dark ">
-            <h3>Address</h3>
-            <hr>
-            <span>Borivali(west) <br>Mumbai-400099
-            </span>
-          </div>
-
-          <div class="col-3 text-dark">
-            <h3>Links</h3>
-            <hr>
-            <a href="index.html">Home</a> <br>
-            <a href="#">Login </a> <br>
-            <a href="#">About </a> <br>
-            <a href="#">Contact </a> 
-          </div>
-          <div class="col-3 text-dark">
-            <h3>Socials</h3>
-            <hr>
-            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-            <br>
-            <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-            <br>
-            <a href="https://www.instagram.com target="_blank"><i class="bi bi-instagram"></i></a>
-          </div>
-
+        <div class="col-6">
+          <img src="img/offer 2.png" class="img-fluid" />
         </div>
       </div>
+    </div>
 
-    
+    <!-- FOOTER -->
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <div class="container-fluid m-2">
+      <div class="row">
+        <div class="col-3">
+          <h3>Address</h3>
+          <hr />
+          Borivali (West)<br />Mumbai - 400099
+        </div>
+
+        <div class="col-3">
+          <h3>Links</h3>
+          <hr />
+          <a href="index.html">Home</a><br />
+          <a href="#">Login</a><br />
+          <a href="#">About</a><br />
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="col-3">
+          <h3>Socials</h3>
+          <hr />
+
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="bi bi-facebook"></i> </a
+          ><br />
+
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="bi bi-twitter"></i> </a
+          ><br />
+
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+
+        <div class="col-3">
+          <h3>Services</h3>
+          <hr />
+          Products<br />
+          Delivery<br />
+          Warehouse
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
