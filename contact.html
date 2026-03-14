@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Contact</title>
 
      <!-- Favicon -->
     <link rel="shortcut icon" href="img/fav_icon.jpg" /> 
@@ -58,33 +58,45 @@
     </div>
   </div>
 </nav>
+<!-- map -->
+<div class="container-s">
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.2227266692203!2d72.85332931035035!3d19.229122581932153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b187b227565b%3A0x6b501cc07463dd16!2sItvedant%20-%20Borivali!5e0!3m2!1sen!2sin!4v1773493481105!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
 
-<!--login form -->
- <div class="container">
-  <div class="row">
-    <div class="d-flex justify-content-center">
+<!-- form -->
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+           <h1 class="text-danger">Address</h1>
+            <h3 class="table-danger"><Address></Address></h3>
+            <hr>
+            <span>Flipkart bldg 102<br>Near malad<br>Omkar sra</span>
 
-    <form>
-      <h1 class="text-center">Login</h1>
-  <div class="mb-3">
+        </div>
+
+        <div class="col-6">
+            <form>
+      <h1 class="text-center">Contact Us </h1>
+  <div class="mb-3 w-75">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+  <div class="mb-3 w-75">
+    <label for="exampleInputPassword1" class="form-label">Message</label>
+    <textarea class="form-control h-50"></textarea>
+    
   </div>
  
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Remember me</label>
-  </div>
+ 
   <button type="submit" class="btn btn-primary">Submit</button>
   <a href="index.html" class="btn btn-danger">Cancel</a>
 </form>
-  </div>
-  </div>
+
+        </div>
+    </div>
  </div>
 
   <!-- footer -->
