@@ -1,156 +1,206 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/fav_icon.jpg" /> 
+    <title>About | Flikart</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/fav_icon.jpg" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
   </head>
-  
+
   <body>
+    <!-- NAVBAR -->
 
-     <!-- navbar --> 
- <div class="container-fluid">
-  <div class="row">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-        <img src="img/logo.jpg" alt="logo" width="200px">
-    </a>
-    <form class="d-flex w-75" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="register.html">Register</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Category
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Fashion</a></li>
-            <li><a class="dropdown-item" href="#">Grocery</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Electronics</a></li>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.jpg" width="180" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <form class="d-flex mx-auto w-50">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search products"
+            />
+
+            <button class="btn btn-primary">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                Category
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Grocery</a></li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        
-      </ul>
-      
+        </div>
+      </div>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="container mt-5">
+      <h2 class="section-title">About Us</h2>
+
+      <p class="text-muted">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+        dolore ex. Tempore non fuga at? Dolorum hic unde, illum harum similique
+        in numquam delectus iste enim dolores asperiores necessitatibus animi.
+      </p>
     </div>
-  </div>
-</nav>
-<!-- map -->
-      <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-5">
-          <h2>About Us</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-            dolore ex. Tempore non fuga at? Dolorum hic unde, illum harum
-            similique in numquam delectus iste enim dolores asperiores
-            necessitatibus animi.
-          </p>
+
+    <!-- VISION + MISSION -->
+
+    <div class="container mt-5">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3>Vision</h3>
+
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              qui cum. Itaque officia explicabo mollitia eveniet incidunt.
+            </p>
+          </div>
         </div>
 
-        <div class="col-md-6 mt-5">
-          <h2>Vision</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
-            qui cum. Itaque officia explicabo mollitia eveniet incidunt. Numquam
-            delectus hic quae et accusantium aperiam totam at ut eius, impedit
-            ipsa!
-          </p>
-        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3>Mission</h3>
 
-        <div class="col-md-6 mt-5">
-          <h2>Mision</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
-            qui cum. Itaque officia explicabo mollitia eveniet incidunt. Numquam
-            delectus hic quae et accusantium aperiam totam at ut eius, impedit
-            ipsa!
-          </p>
-        </div>
-
-        <div class="col-md-4 mt-5 shadow pt-5">
-          <h3 class="text-danger text-center">10000+</h3>
-          <h6 class="text-center">Happy Customers....</h6>
-        </div>
-
-        <div class="col-md-4 mt-5 shadow pt-5">
-          <h3 class="text-danger text-center">20000+</h3>
-          <h6 class="text-center">Ordered Delivered....</h6>
-        </div>
-
-        <div class="col-md-4 mt-5 shadow pt-5">
-          <h3 class="text-danger text-center">600+</h3>
-          <h6 class="text-center">Products....</h6>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              qui cum. Itaque officia explicabo mollitia eveniet incidunt.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- STATS -->
+
+    <div class="container mt-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="stat-box">
+            <h3 class="text-danger">10000+</h3>
+
+            <p>Happy Customers</p>
+          </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="stat-box">
+            <h3 class="text-danger">20000+</h3>
+
+            <p>Orders Delivered</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="stat-box">
+            <h3 class="text-danger">600+</h3>
+
+            <p>Products</p>
+          </div>
+        </div>
+      </div>
     </div>
- </div>
 
-  <!-- footer -->
-  <div class="container-fluid m-2 text-white fixed-relative">
+    <!-- FOOTER -->
+
+    <footer class="mt-5 py-5">
+      <div class="container">
         <div class="row">
-          <div class="col-3 text-dark ">
-            <h3>Address</h3>
-            <hr>
-            <span>Borivali(west) <br>Mumbai-400099
-            </span>
+          <div class="col-md-3">
+            <h5>Address</h5>
+
+            Borivali (West)<br />
+            Mumbai - 400099
           </div>
 
-          <div class="col-3 text-dark">
-            <h3>Links</h3>
-            <hr>
-            <a href="index.html">Home</a> <br>
-            <a href="login.html">Login </a> <br>
-            <a href="about.html">About </a> <br>
-            <a href="contact.html">Contact </a> 
-          </div>
-          <div class="col-3 text-dark">
-            <h3>Socials</h3>
-            <hr>
-            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i>Facebook</a>
-            <br>
-            <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i>Twitter</a>
-            <br>
-            <a href="https://www.instagram.com" target="_blank">
-            <i class="bi bi-instagram"></i>Instagram</a>
+          <div class="col-md-3">
+            <h5>Links</h5>
+
+            <a href="index.html">Home</a><br />
+            <a href="login.html">Login</a><br />
+            <a href="about.html">About</a><br />
+            <a href="contact.html">Contact</a>
           </div>
 
-          <div class="col-3 text-dark">
-          <h3>Services</h3>
-          <hr>
-          <span>Products<br>Delivery<br>Warehouse</span>
+          <div class="col-md-3">
+            <h5>Socials</h5>
+
+            <a href="https://facebook.com" target="_blank">
+              <i class="bi bi-facebook"></i> Facebook </a
+            ><br />
+
+            <a href="https://twitter.com" target="_blank">
+              <i class="bi bi-twitter"></i> Twitter </a
+            ><br />
+
+            <a href="https://instagram.com" target="_blank">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Services</h5>
+
+            Products<br />
+            Delivery<br />
+            Warehouse
+          </div>
         </div>
-  </div>
- </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
